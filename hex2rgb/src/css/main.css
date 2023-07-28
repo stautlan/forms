@@ -1,0 +1,19 @@
+p {
+    background: white;
+    border-radius: 5px;
+}
+
+.form {
+    background: white;
+    border-radius: 10px;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    height: 90vh;
+    width: 70vw;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

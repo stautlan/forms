@@ -1,0 +1,32 @@
+
+/* p с рамкой */
+p {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+label {
+    padding: 0 65px;
+}
+
+button {
+    /* padding-left: 25px!important; */
+    margin: 0 65px;
+}
+
+input {
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    border: 1px solid;
+    padding-left: 8px;
+    margin: 0 15px;
+}
+
+fieldset {
+    /* border: 2px solid black; */
+    border-radius: 18px;
+}
+
+div {
+    padding-top: 20px;
+}
