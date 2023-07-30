@@ -1,4 +1,3 @@
-import './App.css'
 import FormHexToRgb from './controls/FormHexToRgb'
 
 function App() {
