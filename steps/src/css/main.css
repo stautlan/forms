@@ -9,6 +9,10 @@ label {
     padding: 0 65px;
 }
 
+div.header {
+    padding-left: 20px;
+}
+
 button {
     /* padding-left: 25px!important; */
     margin: 0 65px;
@@ -19,7 +23,8 @@ input {
     border-radius: 8px;
     border: 1px solid;
     padding-left: 8px;
-    margin: 0 15px;
+    margin: 0 85px;
+    height: 29px;
 }
 
 fieldset {

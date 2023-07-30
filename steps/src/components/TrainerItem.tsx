@@ -1,4 +1,3 @@
-import React from 'react'
 import { TrainerType } from './TrainerType'
 
 type Props = TrainerTypeProps & {}
@@ -15,7 +14,7 @@ const TrainerItem = (props: Props) => {
   return (
     <div>
         <label htmlFor='stretch'>{stretch}</label>
-        <label htmlFor='date'>{date.toLocaleDateString()}</label>
+        <label htmlFor='date'>{date}</label>
         <button onClick={onUpdate}>Изменить</button>
         <button onClick={onRemove}>Удалить</button>
     </div>
@@ -24,8 +23,8 @@ const TrainerItem = (props: Props) => {
 
 type TrainerTypeProps = {
     item: TrainerType,
-    onUpdate: (id: number) => void,
-    onRemove: (id: number) => void,
+    onUpdate: (string: string) => void,
+    onRemove: (string: string) => void,
 }
 
 export default TrainerItem
