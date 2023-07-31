@@ -23,8 +23,8 @@ const TrainerItem = (props: Props) => {
 
 type TrainerTypeProps = {
     item: TrainerType,
-    onUpdate: (string: string) => void,
-    onRemove: (string: string) => void,
+    onUpdate: (value: string) => void,
+    onRemove: (value: string) => void,
 }
 
 export default TrainerItem
